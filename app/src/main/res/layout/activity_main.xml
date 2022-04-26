@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:text="Kumpulan Suara Burung"
+        android:textColor="@color/darkgrey"
+        android:textFontWeight="1000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/burung_kenari"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/poppins_regular"
+        android:onClick="buttonTapped"
+        android:text="Burung Kenari"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/burung_merpati"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/poppins_regular"
+        android:onClick="buttonTapped"
+        android:text="Burung Merpati"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/burung_kacer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/poppins_regular"
+        android:onClick="buttonTapped"
+        android:text="Burung Kacer"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/burung_merak"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/poppins_regular"
+        android:onClick="buttonTapped"
+        android:text="Burung Merak"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
