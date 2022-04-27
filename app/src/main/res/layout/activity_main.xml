@@ -13,7 +13,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center"
-        android:text="Kumpulan Suara Burung"
+        android:text="Suara Burung"
         android:textColor="@color/darkgrey"
         android:textFontWeight="1000"
         android:textSize="24sp" />
